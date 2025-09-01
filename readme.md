@@ -24,4 +24,56 @@ SELECT name FROM students WHERE age > 18
 - So, SQL is a declarative language to interact with databases. It’s old but gold, and still the backbone of all modern data systems
 - It’s also powering the future with AI
 ![alt text](img-1.png)
+## 44-2 
+- pgAdmin not nessesary
+## 44-3 
+- install beekeepar.studio
+## 44-4
+- why need data type because of 
+1. Data Acuuracy
+2. Perfomance
+3. Memory Efficiency
+4. Clarity and constraints
+![alt text](img-3.png)
+# Data types
+1. Boolean 
+2. numbers
+3. Date/time
+4. Character
+5. UUID
 
+1. Boolean
+true
+false
+null
+2. Number / Int
+Small Int (int2)
+Storage : 2 bytes
+Range : -32,768 to +32,767
+Use case : Small numbers (like age,quantity)
+### Integer (int4)
+- Storage : 4 bytes
+- Range : ~ -2B to +2B
+- Use case : Default choice for whole numbers
+### Bigint (int8)
+- Storage : 8 bytes
+ - Range : ~ -9 quintillion to +9 quintillion
+- Use case : Very large numbers (IDs,counters)
+### Real (float4)
+-Storage : 4 bytes
+- Range : ~6 decimal digits precision
+- Use case : Approximate values (e.g.,sensor data)
+### DOUBLE PRECISION (float8)
+- Storage : 4 bytes
+- Range : ~15 decimal digits precision
+- Use case : Higher precision calculations
+### NUMERIC / DECIMAL
+- Storage : variable
+- Range : User-defined precision (exact)
+- Use case : Money, financial calculations
+### SERIAL
+- Storage : 4 bytes (auto-increment integer)
+- Range : 1 to 2,147,483,647
+ - Use case : Auto-incrementing IDs, primary keys
+
+![alt text](img-4.png)
