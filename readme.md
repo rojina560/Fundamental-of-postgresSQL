@@ -15,3 +15,13 @@ By the end, you’ll be ready to structure and manage data confidently in Postgr
 SELECT name FROM students WHERE age > 18 
 ```
 - Tell step by step is `Imparative` but SQL is `declarative`
+### SQL commnads category 
+- Data Definition Language : CREATE, DROP, ALTER TRUNCATE
+- Data Manipulation Language : INSERT, UPDATE, DELETE
+- Data Query Language : SELECT
+- Data Control Language : GRANT, REVOKE
+- Transaction Control : COMMIT, ROLLBACK
+- So, SQL is a declarative language to interact with databases. It’s old but gold, and still the backbone of all modern data systems
+- It’s also powering the future with AI
+![alt text](img-1.png)
+
